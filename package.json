@@ -8,9 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://ciserver/sander/web-shop.git"
+    "url": "https://github.com/o-n-e/web-shop.git"
   },
-  "author": "Sander Rossel",
+  "author": "Stewart Barron",
   "license": "ISC",
   "dependencies": {
     "angular": "^1.6.1",
