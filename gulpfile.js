@@ -124,7 +124,7 @@ gulp.task('clean', function () {
 .task('build', ['js', 'css', 'html'])
 .task('default', ['lint', 'test-min']);
 
-if (gutil.env.emv !== 'prod') {
+if (gutil.env.env !== 'prod') {
     gulp.watch(['css/*.css', 'views/*.html', 'index.html'], ['build']);
     gulp.watch('scripts/*.js', ['default']);
 }
